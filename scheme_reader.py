@@ -134,7 +134,7 @@ def scheme_read(src):
     elif val not in DELIMITERS:
         return val
     elif val == "'":
-        return Pair('quote', scheme_read(src))
+         return Pair('quote', Pair(scheme_read(src), nil))
     elif val == "(":
         return read_tail(src)
     else:

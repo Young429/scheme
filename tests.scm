@@ -8,6 +8,19 @@
 
 ;;; *** Add more of your own here! ***
 
+;;; PROBLEM 4
+
+(+ 5 5)
+; expect 10
+
+(+ 2.34 1.02)
+; expect 3.36
+
+(/ 22 7)
+; expect 3.142857142857143
+
+
+
 ;;; These are examples from several sections of "The Structure
 ;;; and Interpretation of Computer Programs" by Abelson and Sussman.
 
