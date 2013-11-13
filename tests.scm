@@ -19,6 +19,9 @@
 (/ 22 7)
 ; expect 3.142857142857143
 
+(define blue 3)
+; expect blue
+
 
 
 ;;; These are examples from several sections of "The Structure
@@ -69,7 +72,7 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;; Move the following (exit) line to run additional tests. ;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-(exit)
+
 
 
 ;;; 1.1.2
@@ -90,6 +93,8 @@ size
 (define circumference (* 2 pi radius))
 circumference
 ; expect 62.8318
+
+(exit)
 
 ;;; 1.1.4
 
